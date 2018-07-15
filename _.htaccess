@@ -1,0 +1,15 @@
+order deny,allow
+deny from all
+allow from 140.116.221.128/25
+allow from 140.116.249.230
+allow from 140.116.249.231
+allow from 140.116.249.232
+allow from 140.116.249.233
+allow from 140.116.249.234
+allow from 140.116.249.235
+allow from 140.116.249.236
+allow from 140.116.249.237
+allow from 140.116.249.238
+allow from 140.116.169.236
+allow from 140.116.239.173
+allow from 140.116.6.21
