@@ -1,0 +1,172 @@
+﻿@charset "UTF-8";/*---------------------------------------------------CSS & Designed by TenCubes---------------------------------------------*/
+body{	background:#A8CACC;/*背景顏色設定*/	background-image:url('../images/bg(2).jpg');/*背景底圖設定*/	background-repeat:no-repeat;/*圖片重複repeat-X左右重複; repeat-y上下重複; no-repeat不重複;*/	background-position:center top; /*第一個值左右(center, left, right); 第二個值上下(top, center, bottom)*/ 	/*background:#CCCCCC url('../images/bg01.gif') center top  repeat-y ; 統一設定 */	background-attachment:fix; /*fixed 背景固定不動; scroll背景隨捲軸移動*/	font-size:;/*文字尺寸*/	font-family:"Verdana";	color:#;/*文字顏色*/	margin:0px;	text-align:center;	line-height: 1.2em;} 
+table {font-size:1em; line-height: 140%;  color:#2A5160;  }
+th {  vertical-align: text-top; padding-top:5px; padding-right:3px; }
+
+a{	text-decoration:none;/*none無底線;underline下底線*/	color:#594A2F; /*連結顏色*/}
+a:hover{color:#1C7316; /*連結滑過顏色*/}
+p { margin:0.5em ; color:#333333;}
+.pagedate { color:#339999; margin:0.5em; font-weight:bold; }
+.click {cursor: pointer; cursor: hand; }
+/*版面設定*/
+#sitemain {	background: #FFFFFF; /*版面背景設定*/	width:1000px; /*版面寬度設定*/	text-align:left;/*left文字靠左;right文字靠右;center文字居中;*/	margin:0px auto;	padding:0; position:relative; overflow: hidden;}/*--蒞臨人次設定-*/
+.count { font-size:0.8em;  color:#555; float:left; padding:0 1em; padding: 5px 0px 0 10px;}
+.navbar{ font-size:0.8em;  color:#555; float:right; padding:0 1em; }
+/*搜尋器樣式設定*/
+#search{ 	padding: 5px 0 3px 10px;	font-size: 1em; }
+#search form{ margin: 0px; padding: 0px;}
+#search label{	display: block;	margin: 0px;	padding: 0px 10px 0px 0px;	font-size: 1em;	color: #F1F1F1;	text-align: right;}#search input.txt {	color: #333;	border: 1px solid #666;	width: 100px;	display: inline;	margin: 0px;	padding: 2px 0 0 2px;	height: 15px;}
+#search input.btn {	color: #FFFFFF; letter-spacing:5px;	background-color: #7aa900;	border: 1px solid #ADD854;	width: 50px;	margin: 0px;	padding: 2px 0 1px 0;	height: 20px;	cursor:pointer;}
+
+/*版頭設定*/#sitehead { background:#EEEEEE;/*底色設定*/}
+/* background: url('../images/centophead03.jpg')  no-repeat center top; }*/
+#logo {height:80px; /*高度設定*/ background: #137280;}
+
+#logo h1 {font-size:1.3em; color:#fff; display:none;}
+#logo h2 {font-size:1em; color:#fff; display:none;}
+#logo .imgxy {margin-top:0em; margin-left:0em;}
+form { margin:0; padding:0;}
+
+/*中間區塊背景設定*/
+.sitecontentbg { background:#FFFFFF; padding-bottom:0em; overflow: hidden; }
+.quicklinks { background:#FFFFFF; color:#666; padding:5px 0;  border-bottom :#999999 dashed 1px;}
+.quicklinks a {color:#0066CC;}
+
+/*--主選單設定-*/
+ul#sitemenu1 {	margin:0; padding:0; 	position: absolute;	top:45px; left:510px; width:980px;	height:40px; font-size:0.9em; font-weight:bold;color:#5C5C5C;/*字型顏色*/	white-space:nowrap; z-index:10px; }
+/*主選單總體設定*/
+#sitemenu1 a { color:#fff;  }
+#sitemenu1 a:hover { color:#ff0; }
+#sitemenu1 li { line-height:1.5em;	float:left;/*浮動靠左left;浮動靠右right;*/	list-style:none;	text-align:center;/*left文字靠左;right文字靠右;center文字居中;*/}
+#sitemenu1 li a:link, #sitemenu1 li a:visited { display: block;}
+
+ul#sitemenu1 li.a1 a:link, ul#sitemenu1 li.a1 a:visited {	width:195px; /*寬度設定*/	height:40px;/*高度設定*/	color: #334D63; /*連結顏色設定*/	background: url('../images/topmenu02(1).png') no-repeat 0 0;/*底圖設定*/	text-decoration: none; padding-top:5px;}
+ul#sitemenu1 li.a1 a:hover {	background: url('../images/topmenu03(1).png') no-repeat 0 0;/*連結滑過底圖設定*/	color: #FFFDBF;}/*連結滑過字體顏色設定*/
+
+
+/*--次選單設定--*/
+#sitemenu2 {font-size:1em; /*字型尺寸*/width:185px; /*選單寬度設定*/ 	background:#9CBFC1  0 0 repeat-y;/*次選單底圖設定*/	float:left;/*浮動靠左left;浮動靠右right;*/	text-align: left;/*left文字靠左;right文字靠右;center文字居中;*/ padding: 5px 8px 15px 8px;  margin:0px; margin-top:0px;	padding-bottom: 190em ;    /* 設一個足夠容納所有內容的值    */	margin-bottom: -190em;    /*  設相同的負值，將版面拉回來   */}
+#sitemenu2 h3 a { color:#FFFFFF;display: block; }
+#sitemenu2 h3 { 	font-size:0.9em; /*字型尺寸*/ 	margin:5px 0 -1px 0;  	padding:0.5em 0 0.5em 2.2em;     	background: url(../images/leftmenubg.png) no-repeat 0% 0% ;/*標題底圖設定*/ }
+#sitemenu2 ul {list-style-type: none; margin:0 0 0 1px; padding:0; font-size:0.8em; }
+
+/*次選單下拉選單設定*/
+.submenu li a:link, .submenu li a:visited {	border:#FFF 0px solid;	text-align:left; /*left文字靠左;right文字靠右;center文字居中;*/	display: block; 	width: auto;	padding:3px;	padding-left:1.5em;	color: #2D5416;/*連結顏色設定*/	background:#fff  no-repeat 0 0; /*下拉選單底圖設定*/	text-decoration: none;}
+.submenu li a:hover {	background:#137280;/*下拉選單滑過底圖設定*/	color: #FFFFFF;/*連結滑過顏色設定*/}
+
+/*相關連結*/#links { position:relative;}
+#links h3 {	color:#FFFFFF;	font:0.9em;/*字型尺寸*/  	padding:0.5em;	margin:7px 0 0 0;	text-align:left;/*left文字靠左;right文字靠右;center文字居中;*/	background:#175210;/*標題背景顏色設定*/}#links ul { margin:0; padding:0; background:#FFFFFF;}
+#links li  {text-align:center; border-bottom:#CCCCCC 1px dotted;}
+#links li a:link, #links li a:visited {	border:#FFF 1px solid;	text-align:left;/*left文字靠左;right文字靠右;center文字居中;*/	display: block; 	width: auto;	padding:3px;	padding-left:1.5em;	color: #203015;/*連結顏色設定*/	background:url('../images/次選單底.jpg')  0 0; /*底圖設定*/	text-decoration: none;}
+#links li a:hover {	background:url('../images/相關.jpg') 0 0;/*底圖設定*/	color: #5A8248;/*連結滑過顏色設定*/}
+
+/*--次選單設定2-*/
+ul#sitemenu3 {overflow: hidden;	font-size:0.8em;/*字型尺寸*/	width: 200px;/*選單寬度設定*/	float:right;/*浮動靠左left;浮動靠右right;*/	background:  0 0 repeat-y;/*底圖設定*/	list-style-type: none;	padding: 5px 5px 150px 0.5em;	margin: 0;	text-align: center; /*left文字靠左;right文字靠右;center文字居中;*/	border:#999000 0px solid;	padding-bottom: 190em ;    /* 設一個足夠容納所有內容的值    */	margin-bottom: -190em;    /*  設相同的負值，將版面拉回來   */}#sitemenu3 img { border:#FFFFFF 0px solid;}
+#sitemenu3 li { margin:2px; float:left;}
+
+
+
+/*--2欄內容設定--*/
+#sitecontent {	font-size:0.8em;/*字型尺寸*/	float:left;	width:770px;/*寬度設定*/	padding:0 10px; margin:0; 	color:#437319;}/*--3欄內容設定--*/
+#sitecontentB { font-size:0.8em;/*字型尺寸*/	float:left;	width:550px;/*寬度設定*/	padding:0 10px; margin:0;	color:#437319;}
+
+/*內容標題設定*/
+h1 {	background: url('../images/headbg.jpg') no-repeat 0% 0%; /*背景顏色底圖設定*/	font-size:1em;/*字型尺寸*/	border:#2B7732 0px dotted;/*框線設定*/	color:#E2FFF9;/*顏色設定*/	line-height:1.3em;	margin:0.5em 0;	padding-top:5px;	padding-left:32px; padding-bottom:5px;	 }
+h2 {background:#FFFFFF ; font-size:1.2em;/*字型尺寸*/	color:#996600;/*顏色設定*/	padding:0.5em;	}
+h3 {	font-size:0.9em;/*字型尺寸*/ 	color:#333333;/*顏色設定*/	margin:1em 0 0.3em 0;}
+ol {margin-bottom:0.5em; margin-top:0; text-indent: 0em;}
+
+
+.TableForm th {text-align: right;}
+.TableForm td {text-align: left;}
+
+/*列表*/
+.ListItem { margin:10px 0px;	padding: 0px;	}
+.ListItem strong {	text-align: left;	margin: 0px 1em 0px 0;	padding: 0px;	font-weight: normal;/*字型加粗bold; 正體正常normal*/	color: #;/*顏色設定*/}
+.ListItem ul {	list-style: none;	margin: 0;	padding: 5px;}
+.ListItem li {	background-image: url('../images/point02.gif');/*符號項目圖片設定*/	background-repeat: no-repeat;	background-position: 5px 2px;	margin: 0px;	list-style-type:none; padding-left:9em; text-indent:-7em; padding-right:0px; padding-top:0px; padding-bottom:0px; line-height:2em; border-bottom:1px dotted #CCCCCC;	}
+.ListItem a:hover {	text-decoration: underline;	}/*繼續閱讀連結設定*/
+
+.extended {font-size:1em; color:#fff; text-align:right; padding:0; margin-top:-2.5em; margin-right:1em;}
+.extended img { border:#ffffff 0px solid;}
+.extended a:link, .extended a:visited {color:#333;  }
+.extended a:hover {color:#FF00FF;}
+.accesskey { font-size:0.6em; float:left;}
+
+#page { text-align:center; margin:15px 0;}
+#more { float:right; margin:0; padding:0;}
+.bd { margin:0; padding:0;}
+.bd li { float:right; margin:0 3px; list-style:none; padding:0;  }
+
+/*影音*/
+#amov { margin:10px 0 0 10px; padding:0; }
+#amov .amvohead { background:url(../images/a_01.gif) no-repeat 0 0; height:34px;}
+#amov h1 { background:url(../images/aH1.gif) no-repeat 10px 50%; font-size:1.2em; text-indent:2em; padding:5px 0 5px 6px; margin:0; border:#FFFFFF 0px solid; color:#333333; line-height:1.5em;}
+#amov .amvobbody { background:url(../images/a_02.gif) repeat-y 0 100%; padding:8px 0px 3px 12px; }
+#amov .amvobend  { background:url(../images/a_03.gif) no-repeat 0 0; height:6px; }
+#amov table { border:#f00 0 solid; vertical-align:top; padding:3px; text-align:center;}
+#amov img { padding:2px; border:#999999 1px solid;}
+
+/*網網相連*/
+.linka { list-style:none; padding-top:0.5em; }
+.linka li {float:left; margin:1px; padding:0 15px;  background:url(../images/right.gif) 0 50% no-repeat; white-space:nowrap; }
+.linkb {padding:0; margin:0 0 0 1em; list-style:none; }
+.linkb li {float:left; margin:1px 10px; padding:2px 2px 2px 20px; width:26%; background:url(../images/dot_06.gif) 0 60% no-repeat; border-bottom:#666666 1px dotted; }
+
+/*版底設定*/
+#siteinfo p {margin:0;padding:0;}
+#siteinfo { 	clear:both;	color:#FFFFFF;/*字型顏色*/	font-size:0.8em; /*字型尺寸*/	font-weight:normal; /*字型樣式*/	text-align:center;/*left文字靠左;right文字靠右;center文字居中;*/	padding:1em;	line-height: 130%; background-color:#137280;/*底圖顏色設定*/ 	background-position:center top; z-index:9999;} 
+#siteinfo a {  color:#FFFF00; /*連結顏色設定*/  }
+#siteinfo img { border:#ffffff 0px solid;}
+#siteinfo a:hover { color:#FFFFCC;/*連結滑過顏色設定*/ }#siteinfo .sitelink {margin:0; padding:0; }
+
+/*系統名稱*/
+.apName {
+    position: relative; left: 500px; top: 20px;
+    font: bold 36px 標楷體; color:#FEFEF0;
+    text-shadow: 5px 5px 3px #000000;
+}
+
+.tooltip {
+    background-color:#000;
+    border:1px solid #fff;
+    padding:10px 15px;
+    width:200px;
+    display:none;
+    color:#fff;
+    text-align:left;
+    font-size:12px;
+ 
+    /* outline radius for mozilla/firefox only */
+    -moz-box-shadow:0 0 10px #000;
+    -webkit-box-shadow:0 0 10px #000;
+}
+
+
+.gray_table {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #DCDCDC;
+    border-radius: 6px 6px 6px 6px;
+    width: 100%;
+}
+.gray_table td, .gray_table th {
+    border: 1px solid #DCDCDC;
+    padding: 5px 5px;
+}
+.gray_table th {
+    background: none repeat scroll 0 0 #EFEFEF;
+}
+.gray_table tr:hover {
+    background: none repeat scroll 0 0 #E1E9ED;
+}
+.error {
+    color: #EA5200;
+    font-weight: bold;
+}
+
+.c20 {
+    width: 20%;
+}
+.c30 {
+    width: 30%;
+}
